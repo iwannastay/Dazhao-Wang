@@ -107,7 +107,7 @@ int main()
 	scanf_s("%d", &m);
 	Draw(m);
 	for (int i = 0; i < m;i++)
-		cout << "µÚ"<<i+1<<"¸öµã£º(x,y)= (" << mlist.at(i).x << "," << mlist.at(i).y << ")" << "  R=" << mlist.at(i).r << endl;
+		cout << "ÂµÃš"<<i+1<<"Â¸Ã¶ÂµÃ£Â£Âº(x,y)= (" << mlist.at(i).x << "," << mlist.at(i).y << ")" << "  R=" << mlist.at(i).r << endl;
 	return 0;
 }
 
