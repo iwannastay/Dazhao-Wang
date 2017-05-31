@@ -28,7 +28,7 @@ bool Inside(Ellipse e)
 	return true;
 }
 
-bool UnOverlapped(Ellipse e, int no)
+bool Overlapped(Ellipse e, int no)
 {
 	int dx, dy, ds;
 	for (int i = 0; i < no; i++)
@@ -107,7 +107,6 @@ int main()
 	scanf_s("%d", &m);
 	Draw(m);
 	for (int i = 0; i < m;i++)
-		cout << "µÚ"<<i+1<<"¸öµã£º(x,y)= (" << mlist.at(i).x << "," << mlist.at(i).y << ")" << "  R=" << mlist.at(i).r << endl;
-	return 0;
+		cout << "第" << i + 1 << "个点：(x,y)= (" << (float)mlist.at(i).x / GOUBI << "," << (float)mlist.at(i).y / GOUBI << ")" << "  R=" << (float)mlist.at(i).r / GOUBI << endl;
 }
 
